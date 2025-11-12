@@ -112,24 +112,24 @@
 
 @font-face {
   font-family: "e-Ukraine";
-  src: url("fonts/e-Ukraine-Regular.otf") format("opentype");
+  src: url("/e-Ukraine-Regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: "e-Ukraine";
-  src: url("fonts/e-Ukraine-Bold.otf") format("opentype");
+  src: url("/e-Ukraine-Bold.otf") format("opentype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "e-Ukraine";
-  src: url("fonts/e-Ukraine-Medium.otf") format("opentype");
+  src: url("/e-Ukraine-Medium.otf") format("opentype");
   font-weight: 500;
 }
 
 @font-face {
   font-family: "e-Ukraine";
-  src: url("fonts/e-Ukraine-Light.otf") format("opentype");
+  src: url("/e-Ukraine-Light.otf") format("opentype");
   font-weight: 300;
 }
 

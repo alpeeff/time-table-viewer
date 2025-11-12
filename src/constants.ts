@@ -45,8 +45,10 @@ export const CITIES = [
   },
 ];
 
-export enum Step {
-  SelectCity = "select-city",
-  SelectDates = "select-dates",
-  Preview = "preview",
-}
+export const Step = {
+  SelectCity: "select-city",
+  SelectDates: "select-dates",
+  Preview: "preview",
+} as const;
+
+export type Step = (typeof Step)[keyof typeof Step];
